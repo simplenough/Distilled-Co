@@ -1,0 +1,168 @@
+section.extensions {
+    max-width: 400px;
+
+    margin: 0 auto;
+
+}
+
+.extensions_article {
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.extensions_article--desktop {
+    display: none;
+}
+
+.extensions_info--container {
+    max-width: 380px;
+
+    margin: 60px auto 116px auto;
+    padding: 5px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.extensions_heading {
+    max-width: 300px;
+
+    font-size: 32px;
+    text-align: center;
+    line-height: 150%;
+}
+
+.extensions_subheading {
+    max-width: 390px;
+
+    padding: 0 5px;
+
+    font-size: 20px;
+    text-align: center;
+    line-height: 150%;
+}
+
+.extensions_button--consultation {
+    max-width: 145px;
+    height: 40px;
+}
+
+@media (min-width:1024px) {
+
+    section.extensions {
+        max-width: 1000px;
+        height: 0;
+    }
+
+    .extensions_article {
+        max-width: 300px;
+        height: 470px;
+
+        position: relative;
+        top: -620px;
+    }
+
+    .extensions_info--container {
+        max-width: 260px;
+        height: 470px;
+    
+        margin: 69px auto;
+        padding: 5px;
+    }
+
+    .extensions_subheading {
+        min-width: 280px;
+    
+        padding: 0 5px;
+    
+        font-size: 16px;
+        text-align: center;
+        line-height: 150%;
+    }
+
+
+}
+
+@media (min-width:1280px) {
+
+    section.extensions {
+        max-width: 1208px;
+    }
+
+    .extensions_article {
+        max-width: 355px;
+        height: 594px;
+
+        top: -744px;
+    }
+
+    .extensions_info--container {
+        max-width: 400px;
+
+        margin: 62px auto;        
+
+        gap: 70px;
+    }
+
+    .extensions_heading {
+        max-width: 450px;
+        
+        font-size: 38px;
+    }
+
+    .extensions_subheading {
+        max-width: 370px;
+
+        font-size: 20px;
+    }
+
+    .extensions_button--consultation {
+        max-width: 193px;
+        height: 50px;
+    }
+
+}
+
+@media (min-width:1536px) {
+
+    section.extensions {
+        max-width: 1500px;
+    }
+
+    .extensions_article {
+        max-width: 355px;
+        height: 707px;
+
+        margin-left: 40px;
+
+        top: -857px;
+    }
+
+    .extensions_info--container {
+        margin: 124px auto;
+    }
+
+    .extensions_heading {
+        max-width: 450px;
+        
+        font-size: 42px;
+    }
+
+    .extensions_subheading {
+        max-width: 370px;
+
+        font-size: 24px;
+    }
+
+    .extensions_button--consultation {
+        max-width: 197px;
+        height: 54px;
+    }
+
+}

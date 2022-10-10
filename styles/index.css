@@ -1,0 +1,32 @@
+@import url(./sections/hero/hero.css);
+@import url(./sections/about/about.css);
+@import url(./sections/extensions/extensions.css);
+@import url(./sections/testimonials/testimonials.css);
+@import url(./sections/gallery/gallery.css);
+
+.home {
+    max-width: 500px;
+    padding: 0 14px;
+    margin: auto;
+}
+
+@media (min-width:1024px) {
+    
+    .home {
+        max-width: 1000px;
+    }
+}
+
+@media (min-width:1280px) {
+    
+    .home {
+        max-width: 1220px;
+    }
+}
+
+@media (min-width:1536px) {
+
+    .home {
+        max-width: 1500px;
+    }
+}
