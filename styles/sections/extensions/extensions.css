@@ -62,30 +62,37 @@ section.extensions {
 
     .extensions_article {
         max-width: 300px;
-        height: 470px;
+        height: 500px;
 
         position: relative;
-        top: -620px;
+        top: -500px;
+        left: -17px;
     }
 
     .extensions_info--container {
-        max-width: 260px;
+        max-width: 300px;
         height: 470px;
     
         margin: 69px auto;
         padding: 5px;
+        gap: 70px;
+    }
+
+    .extensions_heading {
+        min-width: 310px;
+
+        font-size: 36px;
     }
 
     .extensions_subheading {
-        min-width: 280px;
+        min-width: 310px;
     
         padding: 0 5px;
     
-        font-size: 16px;
+        font-size: 17px;
         text-align: center;
         line-height: 150%;
     }
-
 
 }
 
@@ -96,24 +103,23 @@ section.extensions {
     }
 
     .extensions_article {
-        max-width: 355px;
-        height: 594px;
+        max-width: 400px;
+        height: 630px;
 
-        top: -744px;
+        top: -630px;
+        left: -40px;
     }
 
     .extensions_info--container {
         max-width: 400px;
 
-        margin: 62px auto;        
-
-        gap: 70px;
+        margin: 80px auto;
     }
 
     .extensions_heading {
-        max-width: 450px;
+        min-width: 400px;
         
-        font-size: 38px;
+        font-size: 42px;
     }
 
     .extensions_subheading {
@@ -132,32 +138,36 @@ section.extensions {
 @media (min-width:1536px) {
 
     section.extensions {
-        max-width: 1500px;
+        max-width: 1486px;
     }
 
     .extensions_article {
-        max-width: 355px;
-        height: 707px;
+        max-width: 470px;
+        height: 757px;
 
-        margin-left: 40px;
+        margin-left: 10px;
 
-        top: -857px;
+        top: -757px;
     }
 
     .extensions_info--container {
-        margin: 124px auto;
+        max-width: 470px;
+
+        margin: 143.5px auto;
+
+        gap: 90px;
     }
 
     .extensions_heading {
         max-width: 450px;
         
-        font-size: 42px;
+        font-size: 50px;
     }
 
     .extensions_subheading {
-        max-width: 370px;
+        max-width: 460px;
 
-        font-size: 24px;
+        font-size: 25px;
     }
 
     .extensions_button--consultation {

@@ -1,21 +1,30 @@
 .gallery {
     max-width: 400px;
+    min-width: 330px;
 
     margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 80px;
 }
 
 .gallery_grid--container {
     max-width: 400px;
+    min-width: 330px;
+    width: 100%;
 
     margin: auto;
-    padding: 5px;
 
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 200px 182px;
-    grid-template-rows: repeat(2, 134px);
-    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px 8px;
 }
 
 .gallery_img--install-container {
@@ -25,6 +34,8 @@
 
 .gallery_img--install {
     max-width: 200px;
+    min-width: 168px;
+    width: 100%;
 
     border-radius: 4px;
 }
@@ -36,6 +47,8 @@
 
 .gallery_img--style {
     max-width: 200px;
+    min-width: 168px;
+    width: 100%;
 
     border-radius: 4px;
 }
@@ -47,20 +60,14 @@
 
 .gallery_img--photo-shoot {
     max-width: 182px;
+    min-width: 164px;
+    width: 100%;
 
     border-radius: 4px;
 }
 
-.gallery_button--container {
-    margin: 50px auto;
-    
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
 .gallery_button {
-    max-width: 150px;
+    max-width: 126px;
     height: 40px;
 }
 
@@ -70,23 +77,19 @@
     }
     
     .gallery_grid--container {
-        max-width: 1024px;
+        max-width: 974px;
     
-        grid-template-columns: 470px 435px;
-        grid-template-rows: repeat(2, 322px);
-        gap: 18px;
+        grid-template-columns: 480px 445px;
+        grid-template-rows: repeat(2, 332px);
+        gap: 15px;
     }
     
     .gallery_img--install, .gallery_img--style {
-        max-width: 470px;
+        max-width: 480px;
     }
     
     .gallery_img--photo-shoot {
-        max-width: 435px;
-    }
-    
-    .gallery_button--container {
-        margin: 100px auto;
+        max-width: 445px;
     }
     
     .gallery_button {

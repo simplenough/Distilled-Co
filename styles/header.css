@@ -1,7 +1,7 @@
 .header_mobile {
     max-width: 400px;
     margin: 10px auto 0 auto;
-    padding: 0 15px 0 8px;
+    padding: 0 13px 0 8px;
 
     display: flex;
     align-items: center;
@@ -84,7 +84,7 @@
 @media (min-width:1280px) {
 
     .header_desktop {
-        max-width: 1050px;
+        max-width: 1080px;
     }
     
     .logo_desktop {
@@ -103,7 +103,7 @@
 @media (min-width:1536px) {
 
     .header_desktop {
-        max-width: 1270px;
+        max-width: 1336px;
     }
     
     .logo_desktop {
