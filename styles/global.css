@@ -1,11 +1,15 @@
 @import url("./header.css");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+:root {
+  --mobile__max-width: 500px;
+  --mobile__bounds: 0 14px;
+}
 /*
 ***********************************************************
 * SM
