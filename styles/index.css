@@ -3,6 +3,9 @@
 @import url(./sections/extensions/extensions.css);
 @import url(./sections/testimonials/testimonials.css);
 @import url(./sections/gallery/gallery.css);
+@import url(./sections/training/training.css);
+@import url(./sections/products/products.css);
+@import url(./sections/footer/footer.css);
 
 .home {
     max-width: 500px;
