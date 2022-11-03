@@ -1,120 +1,101 @@
 .header_mobile {
-    max-width: 400px;
+  max-width: var(--mobile__max-width);
+  margin: 10px auto 0 auto;
+  padding: var(--mobile__bounds);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_mobile {
+  width: 50px;
+}
+
+.header_desktop,
+.header_nav,
+.logo_desktop {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .header_mobile {
+    display: none;
+  }
+
+  .logo_mobile {
+    display: none;
+  }
+
+  .burger_icon {
+    display: none;
+  }
+
+  .header_desktop {
+    max-width: 825px;
     margin: 10px auto 0 auto;
-    padding: 0 13px 0 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo_desktop {
+    width: 110px;
+
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .header_nav {
+    width: 310px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    list-style-type: none;
+  }
+
+  a.header_nav--link {
+    font-family: "Branch";
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+  }
 }
 
-.header_desktop {
-    display: none;
+@media (min-width: 1280px) {
+  .header_desktop {
+    max-width: 1080px;
+  }
+
+  .logo_desktop {
+    width: 160px;
+  }
+
+  .header_nav {
+    width: 466px;
+  }
+
+  a.header_nav--link {
+    font-size: 24px;
+  }
 }
 
-.logo_mobile {
-    width: 50px;
+@media (min-width: 1536px) {
+  .header_desktop {
+    max-width: 1336px;
+  }
 
-    display: block;
-}
+  .logo_desktop {
+    width: 190px;
+  }
 
-/* wtf is going on with this figure ?? added margin-top just to look right for now */
-.burger_icon {
-    width: 31px;
-    margin-top: 10px;
-}
+  .header_nav {
+    width: 518px;
+  }
 
-.logo_desktop {
-   display: none;
-}
-
-.header_nav {
-    display: none;
-}
-
-@media (min-width:1024px) {
-
-    .header_mobile {
-        display: none;
-    }
-    
-    .logo_mobile {
-        display: none;
-    }
-
-    .burger_icon {
-        display: none;
-    }
-
-    .header_desktop {
-        max-width: 825px;
-        margin: 10px auto 0 auto;
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .logo_desktop {
-        width: 110px;
-        
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .header_nav {
-        width: 310px;
-        
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        list-style-type: none;
-    }
-
-    a.header_nav--link {
-        font-family: "Branch";
-        font-size: 16px;
-        text-decoration: none;
-        color: #000;
-    }
-
-}
-
-@media (min-width:1280px) {
-
-    .header_desktop {
-        max-width: 1080px;
-    }
-    
-    .logo_desktop {
-        width: 160px;
-    }
-
-    .header_nav {
-        width: 466px;
-    }
-
-    a.header_nav--link {
-        font-size: 24px;
-    }
-}
-
-@media (min-width:1536px) {
-
-    .header_desktop {
-        max-width: 1336px;
-    }
-    
-    .logo_desktop {
-        width: 190px;
-    }
-
-    .header_nav {
-        width: 518px;
-    }
-
-    a.header_nav--link {
-        font-size: 28px;
-    }    
+  a.header_nav--link {
+    font-size: 28px;
+  }
 }

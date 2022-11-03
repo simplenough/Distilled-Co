@@ -8,28 +8,25 @@
 @import url(./sections/footer/footer.css);
 
 .home {
-    max-width: 500px;
-    padding: 0 15px;
-    margin: auto;
+  max-width: var(--mobile__max-width);
+  padding: var(--mobile__bounds);
+  margin: auto;
 }
 
-@media (min-width:1024px) {
-    
-    .home {
-        max-width: 974px;
-    }
+@media (min-width: 1024px) {
+  .home {
+    max-width: 974px;
+  }
 }
 
-@media (min-width:1280px) {
-    
-    .home {
-        max-width: 1230px;
-    }
+@media (min-width: 1280px) {
+  .home {
+    max-width: 1230px;
+  }
 }
 
-@media (min-width:1536px) {
-
-    .home {
-        max-width: 1486px;
-    }
+@media (min-width: 1536px) {
+  .home {
+    max-width: 1486px;
+  }
 }
