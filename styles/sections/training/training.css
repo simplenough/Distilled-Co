@@ -1,31 +1,31 @@
 .training {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .training_article {
-    max-width: 400px;
-    
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+  max-width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .training_img {
-    max-width: 395px;
+  max-width: 395px;
 
-    border-radius: 4px;
+  border-radius: 4px;
 }
-  
-.training_heading {
-    max-width: 240px;
 
-    font-size: 28px;
-    line-height: 150%;
+.training_heading {
+  max-width: 240px;
+
+  font-size: 28px;
+  line-height: 150%;
 }
 
 .training_subheading {
-    max-width: 310px;
+  max-width: 310px;
 
-    font-size: 18px;
-    line-height: 150%;
+  font-size: 18px;
+  line-height: 150%;
 }
